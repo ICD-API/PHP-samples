@@ -1,7 +1,7 @@
 {
   "name": "icd-api-playground",
   "authors": [
-    "marc.donada <marc.donada@gmail.com>"
+    "mdonada"
   ],
   "description": "ICD APIs Playground in PHP",
   "main": "index.php",

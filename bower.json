@@ -1,0 +1,20 @@
+{
+  "name": "icd-api-playground",
+  "authors": [
+    "marc.donada <marc.donada@gmail.com>"
+  ],
+  "description": "ICD APIs Playground in PHP",
+  "main": "index.php",
+  "keywords": [
+    "ICD",
+    "API"
+  ],
+  "license": "© Copyright World Health Organization (WHO), 2017. All Rights Reserved.",
+  "homepage": "https://icdaccessmanagement.who.int/",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "prism": "prismjs#^1.8.1"
+  }
+}

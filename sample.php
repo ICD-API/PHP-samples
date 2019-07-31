@@ -45,7 +45,8 @@
 	curl_setopt($ch, CURLOPT_HTTPHEADER, array(
 				'Authorization: Bearer '.$token,
 				'Accept: application/json',
-				'Accept-Language: en'
+				'Accept-Language: en',
+				'API-Version: v2'
 	));
 	
 	// grab URL and pass it to the browser

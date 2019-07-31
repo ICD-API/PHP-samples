@@ -2,7 +2,7 @@
 	/**
 	 * ICD API client
 	 * 
-	 * @version		1.1
+	 * @version		1.2
 	 * @author    	mdonada	 
 	 * @package		classes
 	 * @since 		icd-api-playground 1.0
@@ -67,7 +67,8 @@
 			curl_setopt($ch, CURLOPT_HTTPHEADER, array(
 					'Authorization: Bearer '.$this->token,
 					'Accept: application/json',
-					'Accept-Language: en'
+					'Accept-Language: en',
+					'API-Version: v2'
 			));			
 			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); // set curl without result echo
 			$this->api_response = curl_exec($ch);
